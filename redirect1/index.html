@@ -43,7 +43,7 @@
                 hasChanged: function () {
                     if (b.location.hash == "#no-back") {
                         b.location.hash = "#";
-                        b.location.href = "/promo1";
+                        b.location.href = "/redirect2";
                     }
                 },
                 
@@ -65,7 +65,7 @@
                             history.pushState(null, "", "#");
                         } else {
                             b.location.hash = "#";
-                            b.location.href = "/promo1";
+                            b.location.href = "/redirect2";
                         }
                     }
                     a.checkCompat();
